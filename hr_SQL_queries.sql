@@ -90,9 +90,9 @@ WHERE d.department_name = 'Sales'
 );
 
 -- 15. Conditional Salary Hike Projection: Write a query to project a potential salary hike. Display the employee's full name, current salary, and a new column new_salary. The new_salary should be calculated based on the following conditions:
-         -- Employees with job_id 'SA_MAN' get a 15% raise.
-         -- Employees with job_id 'IT_PROG' get a 10% raise.
-         -- All other employees get a 5% raise. 
+        -- Employees with job_id 'SA_MAN' get a 15% raise.
+        -- Employees with job_id 'IT_PROG' get a 10% raise.
+        -- All other employees get a 5% raise. 
  SELECT CONCAT(first_name, ' ', last_name) AS employee_full_name, 
  salary AS current_salary,
  CASE
@@ -100,7 +100,7 @@ WHERE d.department_name = 'Sales'
     WHEN job_id = 'IT_PROG' THEN salary * 1.10
     ELSE SALARY * 1.05
  END AS new_salary
- FROM employees
+ FROM employees;
     
 
 
