@@ -1,5 +1,7 @@
 ### SQL-Based Analysis of a Human Resources Database
 
+<img width="1200" height="628" alt="image" src="https://github.com/user-attachments/assets/d146226f-3e9d-442f-b989-da65638293b3" />
+
 #### Project Overview
 This project is a comprehensive analysis of a sample Human Resources (HR) database. Its purpose is to answer critical business questions by querying the data, demonstrating a strong proficiency in SQL. The analysis covers various aspects of HR data, including employee demographics, salary distribution, departmental structure, and employee tenure.
 
