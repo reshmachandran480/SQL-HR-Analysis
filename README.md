@@ -55,13 +55,39 @@ This analysis of the HR database has yielded several actionable insights that ar
 - **Sales as a High-Performance Benchmark**: The Sales department stands out with a highly competitive, performance-driven salary structure. It serves as a valuable internal model for designing incentive and retention programs aimed at high-performing employees in other departments across the organization.
 
 #### 📂 Project Structure
-SQL-HR-Analysis/
-├── sql_scripts/
-│   ├── 01_hr_db_schema.sql
-│   └── 02_hr_SQL_queries.sql
-├── documentation/
-│   └── hr_database_erd.png
-└── README.md
+Of course. Here is a visual diagram representing the recommended project structure.
+
+This layout clearly separates your SQL code, documentation, and the main project summary, which is a professional standard for organizing projects.
+
+```
++-----------------------+
+|   SQL-HR-Analysis/    |  <-- Root Directory
++-----------------------+
+          |
+          |-----> +----------------+
+          |       |   README.md    |  <-- Project Overview & Insights
+          |       +----------------+
+          |
+          |-----> +-----------------------+
+          |       |    documentation/     |  <-- Supporting Documents
+          |       +-----------------------+
+          |                 |
+          |                 +-----> +-------------------------+
+          |                         |   hr_database_erd.png   |  <-- Your ERD Image
+          |                         +-------------------------+
+          |
+          +-----> +-----------------------+
+                  |      sql_scripts/     |  <-- All SQL Code
+                  +-----------------------+
+                            |
+                            |-----> +-------------------------+
+                            |       | 01_hr_db_schema.sql   |  <-- Database Setup
+                            |       +-------------------------+
+                            |
+                            +-----> +-------------------------+
+                                    | 02_hr_SQL_queries.sql |  <-- 15 Queries
+                                    +-------------------------+
+```
 
 #### Author
 * **Reshma Chandran R**
