@@ -14,7 +14,7 @@ The database consists of four interconnected tables that model a typical HR syst
 
 #### Entity-Relationship Diagram (ERD)
 An ERD provides a visual representation of the database structure and relationships between tables.
-(<img width="1415" height="805" alt="Untitled" src="https://github.com/user-attachments/assets/38165533-637c-4ba6-b799-6d09989ecaa4" />)
+<img width="1415" height="805" alt="Untitled" src="https://github.com/user-attachments/assets/38165533-637c-4ba6-b799-6d09989ecaa4" />
 
 #### Tools and Technologies
 - **Database**: MySQL
