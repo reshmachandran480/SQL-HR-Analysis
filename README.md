@@ -48,6 +48,21 @@ Here are the 15 business questions this analysis answers, along with the corresp
 - **Conditional Logic**: **`CASE`** statements to apply conditional logic for data transformation.
 - **Data Manipulation**: **`CONCAT()`** for string manipulation and aliasing for clear results.
 
+#### Key Insights from the Analysis
+This analysis of the HR database has yielded several actionable insights that are crucial for strategic decision-making:
+- **Executive & Management Salary Dominance**: The data clearly shows that the highest salaries are concentrated in executive (`AD_VP`, `AD_PRES`) and sales management (`SA_MAN`) roles. This provides a vital baseline for future budgeting and helps identify key personnel for compensation planning.
+- **Experienced, Long-Tenured Workforce**: A significant portion of the workforce was hired around 1999, indicating a stable and experienced employee base. This highlights a critical need for the company to develop robust succession plans for senior roles to mitigate the risk of knowledge loss upon retirement.
+- **Sales as a High-Performance Benchmark**: The Sales department stands out with a highly competitive, performance-driven salary structure. It serves as a valuable internal model for designing incentive and retention programs aimed at high-performing employees in other departments across the organization.
+
+#### 📂 Project Structure
+SQL-HR-Analysis/
+├── sql_scripts/
+│   ├── 01_hr_db_schema.sql
+│   └── 02_hr_SQL_queries.sql
+├── documentation/
+│   └── hr_database_erd.png
+└── README.md
+
 #### Author
 * **Reshma Chandran R**
 * [LinkedIn Profile](https://www.linkedin.com/in/reshma-chandran-r-586877198/)
