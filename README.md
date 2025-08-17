@@ -55,9 +55,6 @@ This analysis of the HR database has yielded several actionable insights that ar
 - **Sales as a High-Performance Benchmark**: The Sales department stands out with a highly competitive, performance-driven salary structure. It serves as a valuable internal model for designing incentive and retention programs aimed at high-performing employees in other departments across the organization.
 
 #### 📂 Project Structure
-Of course. Here is a visual diagram representing the recommended project structure.
-
-This layout clearly separates your SQL code, documentation, and the main project summary, which is a professional standard for organizing projects.
 
 ```
 +-----------------------+
