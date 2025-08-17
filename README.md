@@ -72,7 +72,7 @@ This analysis of the HR database has yielded several actionable insights that ar
           |       +-----------------------+
           |                 |
           |                 +-----> +-------------------------+
-          |                         |   hr_database_erd.png   |  <-- Your ERD Image
+          |                         |   hr_database_erd.png   |  <-- ERD Image
           |                         +-------------------------+
           |
           +-----> +-----------------------+
